@@ -2,4 +2,5 @@
     <string name="app_name">AgrPhoto</string>
     <string name="description">Описание</string>
     <string name="StartDate">Дата проведения:</string>
+    <string name="todo">TODO</string>
 </resources>
