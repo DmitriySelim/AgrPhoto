@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".View.AddDelDataActivity"
+            android:parentActivityName=".View.MainActivity">
+        </activity>
     </application>
 
 </manifest>

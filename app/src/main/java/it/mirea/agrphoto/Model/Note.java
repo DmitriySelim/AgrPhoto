@@ -13,11 +13,14 @@ public class Note {
 
     private final String description;
 
+    private final String date;
+
     private final int priority;
 
-    public Note(String title, String description, int priority) {
+    public Note(String title, String description,String date, int priority) {
         this.title = title;
         this.description = description;
+        this.date = date;
         this.priority = priority;
     }
 
@@ -31,6 +34,10 @@ public class Note {
 
     public String getTitle() {
         return title;
+    }
+
+    public String getDate() {
+        return date;
     }
 
     public String getDescription() {
