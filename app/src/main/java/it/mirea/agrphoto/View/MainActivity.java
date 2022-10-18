@@ -66,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
-                noteViewModel.delete(adapter.getNoteAt(viewHolder.getAdapterPosition()));
+                noteViewModel.delete(adapter.getNoteAt(viewHolder.getAbsoluteAdapterPosition()));
+                adapter.notifyDataSetChanged();
                 Toast.makeText(MainActivity.this, "Запись удалена", Toast.LENGTH_SHORT).show();
             }
         }).attachToRecyclerView(recyclerView);
