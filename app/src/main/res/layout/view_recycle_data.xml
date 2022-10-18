@@ -85,5 +85,19 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textpriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/textpriority" />
+        </LinearLayout>
+
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
