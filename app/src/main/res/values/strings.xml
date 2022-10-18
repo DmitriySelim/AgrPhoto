@@ -3,4 +3,5 @@
     <string name="description">Описание</string>
     <string name="StartDate">Дата проведения:</string>
     <string name="todo">TODO</string>
+    <string name="textpriority">1</string>
 </resources>
