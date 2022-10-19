@@ -1,5 +1,6 @@
 package it.mirea.agrphoto.Model;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -9,12 +10,13 @@ public class Note {
     @PrimaryKey(autoGenerate = true)
     private int id;
 
+    @ColumnInfo(name = "Title")
     private final String title;
-
+    @ColumnInfo(name = "Description")
     private final String description;
-
+    @ColumnInfo(name = "Date")
     private final String date;
-
+    @ColumnInfo(name = "Priority")
     private final int priority;
 
     public Note(String title, String description,String date, int priority) {
